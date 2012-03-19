@@ -1,0 +1,57 @@
+<div id="sidebar">
+
+<h2>fact sheet</h2>
+
+<ul>
+
+<li><a href ="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Longitudinal_Models">Longitudinal models</a>
+
+<div class="tcontainer">
+
+<ul class="sub">
+<li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Longitudinal_Models#Time-Continuous_Models">Time-continuous models  (IDM, ACC, OVM, FVDM)</a></li>
+	
+<li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Longitudinal_Models#Iterated_Coupled_Maps">Iterated coupled maps  (Gipps, Krauss)</a></li>
+	
+<li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Longitudinal_Models#Cellular_Automata">Cellular-automaton models (NaSch, Barlovic, KKW)</a></li>
+</ul></li>
+
+
+<li><a href ="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Modeling_Human_Aspects">Behavioral components<a>
+<ul class="sub">
+    <li><a href ="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Modeling_Human_Aspects">Driver's memory model</a></li>
+    <li><a href ="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Modeling_Human_Aspects">Noise</a></li>
+</ul></li>
+
+<li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Discrete-Choice_Modeling">Discrete decision models</a>
+<ul class="sub">
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Discrete-Choice_Modeling">Lane change</a></li>
+    <li>Overtaking on rural roads</li>
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Discrete-Choice_Modeling">Approaching traffic lights</a></li>
+</ul></li>
+
+<li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Road_Network">Road network</a>
+<ul class="sub">
+    <a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Road_Network"><li>OpenDRIVE format</li></a>
+</ul></li>
+
+<li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Output_Quantities">Output</a>
+<ul class="sub">
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Output_Quantities#Collective_Fuel_Consumption">Fuel-consumption model</a></li>
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Output_Quantities#Detectors">Cross section detectors</a></li>
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Output_Quantities#Travel_Times">Travel times</a></li>
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Output_Quantities#Spatiotemporal_data">Spatiotemporal contours</a></li>
+</ul></li>
+
+<li>Applications
+<ul class="sub">
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/MovSim%27s_Commandline">Command-line simulation core</a></li>
+    <li><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/MovSim%27s_Viewer">Viewer with GUI</a></li>
+<!-- <li>Android app</li>
+    <li>MovSim game</li> -->
+</ul></li>
+
+</ul>
+
+
+</div> <!-- sidebar-->

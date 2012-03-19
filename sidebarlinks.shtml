@@ -1,0 +1,36 @@
+<div id="sidebar">
+
+
+<ul>
+
+<li>Links
+<ul>
+
+    <li><a href="http://www.traffic-simulation.de">traffic-simulation.de</a></li>
+    <li><a href="http://www.traffic-states.com">traffic-states.com</a></li>
+    <li><a href="http://www.verkehrsdynamik.de">verkehrsdynamik.de</a></li>
+    <li><a href="https://github.com/movsim/movsim">MovSim on github</a></li>
+    
+</ul></li>
+
+<li>Videos
+<ul>
+
+    <li><a href="http://www.youtube.com/watch?v=qmzTEjOKSdw">Vasaloppet cross country ski race, start simulation</a></li>
+    <li><a href="http://www.youtube.com/watch?v=m9eELZCW4Ys">traffic simulation with Martin Treibers old simulator</a></li>
+    
+</ul></li>
+
+<li>Authors
+<ul>
+
+    <li><a href="http://www.akesting.de">Arne Kesting</a></li>
+    <li><a href="http://www.ralphgerm.de">Ralph Germ</a></li>
+    <li><a href="https://github.com/martinbudden">Martin Budden</a></li>
+    <li><a href="http://www.mtreiber.de">Martin Treiber</a></li>
+    
+</ul></li>
+
+</ul>
+
+</div> <!-- sidebar -->

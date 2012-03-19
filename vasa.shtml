@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head profile="http://gmpg.org/xfn/11">
+<title>MovSim</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Verkehrsdynamik und Simulation: Lehrbuch von Treiber/Kesting." />
+<meta name="keywords" content="Verkehr, Verkehrsdynamik, Verkehrssimulation, Lehrbuch, Treiber, Kesting" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+<link href="main.css" type="text/css" media="screen" rel="stylesheet">
+<link href="content.css" type="text/css" media="screen" rel="stylesheet">
+<link href="sidebar.css" type="text/css" media="screen" rel="stylesheet">
+
+<script src="jquery-1.7.js" type="text/javascript"></script>
+<script src="jquery.kwicks-1.5.1.js" type="text/javascript"></script>
+<script src="jquery.tools.min.js" type="text/javascript"></script>  
+<script src="jqextend.js" type="text/javascript"></script>
+
+</head>
+
+<body id="links">
+
+<!--#include file="navigation.shtml" -->
+
+
+<div id="wrap">
+
+	<div id="content">
+        <h4>Note</h4>
+        <p class="p1">This simulation is still work in progress. Especially the lane change behavior at the sides of the track in the massive traffic jams must be improved.</p>
+        <p class="p1"> Each skier is simulated individually. We have eleven types of skiers in the simulation and applied a slight randomization of the power to each skier. One type for each starting block. Take a look at the <a href="https://github.com/movsim/movsim/blob/vasaapplet/sim/examples/vasa_CCS.xml">xml configuration file.</a> We will improve the simulation in the next couple of days.</p>
+
+	</div> <!-- content -->
+
+<!--#include file="sidebarvasa.shtml" -->
+
+<APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="vasa.jar" WIDTH="1200" HEIGHT="1200"></APPLET>
+
+
+<!--#include file="footer.shtml" -->
+
+
+	
+</div> <!-- end #wrap -->
+
+
+</body>
+</html>
