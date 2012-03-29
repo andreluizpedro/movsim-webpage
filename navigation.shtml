@@ -50,7 +50,7 @@
     		    <li id="nav-app"><a href="app.shtml">App</a></li>
                 <!-- <li id="nav-gettingstarted"><a href="gettingstarted.shtml">Getting Started</a></li> -->
                 <li id="nav-download"><a href="download.shtml">Download</a></li>
-                <li id="nav-documentation"><a href="http://h1451310.stratoserver.net/movsimwiki/mediawiki/index.php/Main_Page">Wiki</a></li>
+                <li id="nav-documentation"><a href="http://h1451310.stratoserver.net/wiki/index.php/Main_Page">Wiki</a></li>
     		    <li id="nav-app"><a href="vasa.shtml">Vasaloppet</a></li>
             </ul>
         </div>
