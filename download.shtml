@@ -98,7 +98,7 @@ $(document).ready(function() {
     </ul>
     <div class="tab_container">
         <div id="tab1" class="tab_content">
-            <h2>MovSim v1.2</h2>
+            <h2>MovSim v1.2 Testing</h2>
             <a href="https://github.com/movsim/movsim"><img src="img/movsim_v1_2.png" width="320" heigth="240" alt="" /></a>
             
             <h4>Description:</h4>
@@ -106,9 +106,10 @@ $(document).ready(function() {
             <h4>Sources:</h2>
             <h3><a href="https://github.com/movsim/movsim">MovSim on github</a></h3>
             <h3><a href="https://github.com/movsim/movsim/zipball/master">Download as zip</a></h3>
-            <h4>Executable:</h4>
-            <h3><a href="downloads/movsim_v1.2.zip">Download core as zip</a></h3>
-            <h3><a href="downloads/viewer.zip">Download viewer as zip</a></h3>
+<!--            <h4>Executable:</h4>-->
+            <p>This version of movsim is under high development and far from finished. It may not be stable. But it is usable. At this stage of development we recommand to download the latest sources from github and build the executable with maven. Or run movsim from eclipse. At some point in the future we will provide a more user friendly version.</p>
+<!--            <h3><a href="downloads/movsim_v1.2.zip">Download core as zip</a></h3>-->
+<!--            <h3><a href="downloads/viewer.zip">Download viewer as zip</a></h3>-->
             <h4>Documentation:</h4>
             <h3><a href="#">JavaDocs</a></h3>
         </div> <!-- tab1 -->
