@@ -110,8 +110,8 @@ $(document).ready(function() {
             <p>This version of movsim is under high development and far from finished. It may not be stable. But it is usable. At this stage of development we recommand to download the latest sources from github and build the executable with maven. Or run movsim from eclipse. At some point in the future we will provide a more user friendly version.</p>
 <!--            <h3><a href="downloads/movsim_v1.2.zip">Download core as zip</a></h3>-->
 <!--            <h3><a href="downloads/viewer.zip">Download viewer as zip</a></h3>-->
-            <h4>Documentation:</h4>
-            <h3><a href="#">JavaDocs</a></h3>
+<!--            <h4>Documentation:</h4>-->
+<!--            <h3><a href="#">JavaDocs</a></h3>-->
         </div> <!-- tab1 -->
             
         <div id="tab3" class="tab_content">
@@ -129,8 +129,8 @@ $(document).ready(function() {
             <h3><a href="downloads/movsim_v1.0.zip">Download as zip</a></h3>
             <p>The download file contains two jar files. If you just want to execute MovSim take the jar with dependencies.<br>
             java -jar movsim-1.0-jar-with-dependencies.jar</p>
-            <h4>Documentation:</h4>
-            <h3><a href="#">JavaDocs</a></h3>
+<!--            <h4>Documentation:</h4>-->
+<!--            <h3><a href="#">JavaDocs</a></h3>-->
         </div> <!-- tab3 -->
         
 <!--        <div id="tab4" class="tab_content">-->
