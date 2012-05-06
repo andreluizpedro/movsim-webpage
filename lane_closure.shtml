@@ -27,7 +27,7 @@
 	
 
 <APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="800">
-<PARAM name="scenario" value="laneclosure"></APPLET>
+<PARAM name="scenario" value="/sim/buildingBlocks/laneclosure"></APPLET>
 
 <!--#include file="footer.shtml" -->
 

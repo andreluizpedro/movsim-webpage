@@ -27,7 +27,7 @@
 	
 
 <APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="800">
-<PARAM name="scenario" value="ringroad_1lane"></APPLET>
+<PARAM name="scenario" value="/sim/buildingBlocks/ringroad_1lane"></APPLET>
 
 <!--#include file="footer.shtml" -->
 

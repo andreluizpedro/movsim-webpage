@@ -27,7 +27,7 @@
 	
 
 <APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="800">
-<PARAM name="scenario" value="flow_conserving_bottleneck"></APPLET>
+<PARAM name="scenario" value="/sim/buildingBlocks/flow_conserving_bottleneck"></APPLET>
 <!--        <p class="p1">&#8222;We are, in truth, more than half of what we are by imitation. The great point is, to choose models and to study them with care.&#8221;</p>-->
 <!--        <p class="questioner">&#8212; Lord Chesterfield, 1750</p>       -->
 

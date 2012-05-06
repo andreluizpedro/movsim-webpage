@@ -26,7 +26,9 @@
 <div id="wrap">
 	
 
-<APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="800"></APPLET>
+<APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="800">
+<PARAM name="scenario" value="/sim/buildingBlocks/cloverleaf">
+</APPLET>
 
 <!--#include file="footer.shtml" -->
 
