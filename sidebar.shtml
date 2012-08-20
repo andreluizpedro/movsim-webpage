@@ -1,54 +1,88 @@
 <div id="sidebar">
 
-<h2>fact sheet</h2>
+<h2>Fact Sheet</h2>
 
-<ul>
+<ul class="sub">
 
-<li><a href ="http://h1451310.stratoserver.net/wiki/index.php/Longitudinal_Models">Longitudinal models</a>
+<li>Source Code</li>
+<ul class="sub">
+<li><a href="https://github.com/movsim/movsim">Github repository</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Java_%28programming_language%29">Java</a> with <a href="maven.apache.org">Maven</a></li>
+<li><a href="http://www.gnu.org/licenses/gpl.html">GPLv3 license</a></li>
+</ul></li>
+
+<li>Time-Continuous Models</li>
 
 <div class="tcontainer">
 
 <ul class="sub">
-<li><a href="http://h1451310.stratoserver.net/wiki/index.php/Longitudinal_Models#Time-Continuous_Models">Time-continuous models  (IDM, ACC, OVM, FVDM)</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Intelligent_driver_model">Intelligent Driver Model (IDM)</a></li>
+
+<li><a href="http://arxiv.org/abs/0912.3613">Improved Intelligent Driver Model (ACC)</a></li>
+
+<li><a href="http://traffic.phys.cs.is.nagoya-u.ac.jp/~mstf/sample/ov_e.html">Optimal Velocity Model (OVM)</a></li>
+
+<li>Full Velocity Difference Model (FVDM)</li>
 	
-<li><a href="http://h1451310.stratoserver.net/wiki/index.php/Longitudinal_Models#Iterated_Coupled_Maps">Iterated coupled maps  (Gipps, Krauss)</a></li>
+</ul></li>
+
+<li>Iterated Maps</li>
+
+<div class="tcontainer">
+
+<ul class="sub">
+<li><a href="http://en.wikipedia.org/wiki/Gipps%27_Model">Gipps Model</a></li>
+
+<li>Krauss Model</li>
 	
-<li><a href="http://h1451310.stratoserver.net/wiki/index.php/Longitudinal_Models#Cellular_Automata">Cellular-automaton models (NaSch, Barlovic, KKW)</a></li>
+</ul></li>
+
+<li>Cellular Automata</li>
+
+<div class="tcontainer">
+
+<ul class="sub">
+<li><a href="http://en.wikipedia.org/wiki/Nagel-Schreckenberg_model">Nagel-Schreckenberg Model (NaSch)</a></li>
+
+<li>Improved Nagel-Schreckenberg Model (Barlovic)</li>
+
+<li>Kerner-Klenov-Wolf Model (KKW)</li>
+	
 </ul></li>
 
 
-<li><a href ="http://h1451310.stratoserver.net/wiki/index.php/Modeling_Human_Aspects">Behavioral components</a>
+<li>Behavioral components</li>
 <ul class="sub">
-    <li><a href ="http://h1451310.stratoserver.net/wiki/index.php/Modeling_Human_Aspects">Driver's memory model</a></li>
-    <li><a href ="http://h1451310.stratoserver.net/wiki/index.php/Modeling_Human_Aspects">Noise</a></li>
+    <li><a href ="http://arxiv.org/abs/cond-mat/0304337">Driver's memory model</a></li>
+    <li><a href ="http://arxiv.org/abs/physics/0508222">Acceleration noise</a></li>
 </ul></li>
 
-<li><a href="http://h1451310.stratoserver.net/wiki/index.php/Discrete-Choice_Modeling">Discrete decision models</a>
+<li>Discrete decision models</a>
 <ul class="sub">
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/Discrete-Choice_Modeling">Lane change</a></li>
-    <li>Overtaking on rural roads</li>
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/Discrete-Choice_Modeling">Approaching traffic lights</a></li>
+    <li><a href="http://www.akesting.de/download/MOBIL_TRR_2007.pdf">Lane-changing with MOBIL</a></li>
+    <li><a href="http://arxiv.org/abs/0805.0300">Approaching traffic lights</a></li>
+<!--    <li>Overtaking on rural roads</li> -->
 </ul></li>
 
-<li><a href="http://h1451310.stratoserver.net/wiki/index.php/Road_Network">Road network</a>
+<li>Road network</li>
 <ul class="sub">
-    <a href="http://h1451310.stratoserver.net/wiki/index.php/Road_Network"><li>OpenDRIVE format</li></a>
+    <a href="http://www.opendrive.orghref="><li>OpenDRIVE format</a></li>
 </ul></li>
 
-<li><a href="http://h1451310.stratoserver.net/wiki/index.php/Output_Quantities">Output</a>
+<li>Output</li>
 <ul class="sub">
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/Output_Quantities#Collective_Fuel_Consumption">Fuel-consumption model</a></li>
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/Output_Quantities#Detectors">Cross section detectors</a></li>
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/Output_Quantities#Travel_Times">Travel times</a></li>
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/Output_Quantities#Spatiotemporal_data">Spatiotemporal contours</a></li>
+    <li><a href="http://www.springer.com/physics/complexity/book/978-3-642-32459-8">Fuel-consumption model</a></li>
+    <li>Cross section detectors</li>
+    <li>Travel times</li>
+    <li>Spatiotemporal contours</li>
 </ul></li>
 
 <li>Applications
 <ul class="sub">
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/MovSim%27s_Commandline">Command-line simulation core</a></li>
-    <li><a href="http://h1451310.stratoserver.net/wiki/index.php/MovSim%27s_Viewer">Viewer with GUI</a></li>
-<!-- <li>Android app</li>
-    <li>MovSim game</li> -->
+    <li>Command-line simulation core</li>
+    <li>Viewer with GUI</li>
+<!-- <li>Android app</li> -->
+<!-- <li>MovSim games</li> -->
 </ul></li>
 
 </ul>

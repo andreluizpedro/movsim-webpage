@@ -1,15 +1,20 @@
 <div id="sidebar">
 
-
 <ul>
+
+<li>Source Code
+<ul>
+    <li><a href="https://github.com/movsim/movsim">MovSim on github</a></li>
+  
+</ul></li>
 
 <li>Links
-<ul>
 
+<ul>
     <li><a href="http://www.traffic-simulation.de">traffic-simulation.de</a></li>
-    <li><a href="http://www.traffic-states.com">traffic-states.com</a></li>
+    <li><a href="http://www.traffic-flow-dynamics.org">traffic-flow-dynamics.org</a></li>
     <li><a href="http://www.verkehrsdynamik.de">verkehrsdynamik.de</a></li>
-    <li><a href="https://github.com/movsim/movsim">MovSim on github</a></li>
+    <li><a href="http://www.traffic-states.com">traffic-states.com</a></li>
     
 </ul></li>
 
@@ -17,7 +22,7 @@
 <ul>
 
     <li><a href="http://www.youtube.com/watch?v=qmzTEjOKSdw">Vasaloppet cross country ski race, start simulation</a></li>
-    <li><a href="http://www.youtube.com/watch?v=m9eELZCW4Ys">traffic simulation with Martin Treibers old simulator</a></li>
+    <li><a href="http://www.youtube.com/watch?v=m9eELZCW4Ys">Simulation of driving in congested traffic</a></li>
     
 </ul></li>
 

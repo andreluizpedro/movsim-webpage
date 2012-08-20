@@ -18,17 +18,18 @@
 
 </head>
 
+
+
 <body id="links">
 
 <!--#include file="navigation.shtml" -->
 
 
 <div id="wrap">
-
 	<div id="content">
-        <h4>Note</h4>
-        <p class="p1">This simulation is still work in progress. Especially the lane change behavior at the sides of the track in the massive traffic jams must be improved.</p>
-        <p class="p1"> Each skier is simulated individually. We have eleven types of skiers in the simulation and applied a slight randomization of the power to each skier. One type for each starting block. Take a look at the <a href="https://github.com/movsim/movsim/blob/vasaapplet/sim/examples/vasa_CCS.xml">xml configuration file.</a> We will improve the simulation in the next couple of days.</p>
+        <h4>Microscopic Cross-Country Skier Model</h4>
+        <p class="p1">Check out the <a href="http://www.youtube.com/watch?v=qmzTEjOKSdw">video</a> of the simulation with comments. Note that the skier-modeling is still work in progress. Especially the lane-changing behavior at the sides of the track in the massive traffic jams needs improvements.</p>
+        <p class="p1">Each skier is simulated individually. We have eleven types of skiers in the simulation and applied a slight randomization of the power to each skier. One type for each starting block. Take a look at the <a href="https://github.com/movsim/movsim/blob/vasaapplet/sim/examples/vasa_CCS.xml">xml configuration file.</a></p>
 
 	</div> <!-- content -->
 
@@ -36,11 +37,8 @@
 
 <APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="vasa.jar" WIDTH="1200" HEIGHT="1200"></APPLET>
 
-
 <!--#include file="footer.shtml" -->
 
-
-	
 </div> <!-- end #wrap -->
 
 
