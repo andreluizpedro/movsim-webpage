@@ -37,7 +37,7 @@ addNavBarListeners();
 function addNavBarListeners() {
 
 
-    function bindListenerToMenuItem(id, template1, destElement1, template2, destElement2) {
+    function bindListenerToMenuItem(id, template1, template2) {
         $(id).bind('click', function () {
             $('.nav li').each(function (index, value) {
                 $(value).removeClass('active');
