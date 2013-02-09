@@ -3,37 +3,61 @@
    <ul class="nav nav-list">
       <li class="nav-header">Games</li>
       <li class="active">
-         <a href="#">Routing</a>
+         <a id='routing' href="#">Routing</a>
       </li>
       <li>
-         <a href="#">Ramp metering</a>
+         <a id='ramp_metering' href="#">Ramp metering</a>
       </li>
       <li class="nav-header">Building blocks</li>
       <li>
-         <a href="#">Onramp</a>
+         <a id='onramp' href="#">Onramp</a>
       </li>
       <li>
-         <a href="#">Offramp</a>
+         <a id='offramp' href="#">Offramp</a>
       </li>
       <li>
-         <a href="#">Ring road</a>
+         <a id='ringroad_1lane' href="#">Ring road</a>
       </li>
       <li>
-         <a href="#">Cloverleaf</a>
+         <a id='cloverleaf' href="#">Cloverleaf</a>
       </li>
       <li>
-         <a href="#">Speed limit</a>
+         <a id='speedlimit' href="#">Speed limit</a>
       </li>
       <li>
-         <a href="#">Lane closure</a>
+         <a id='laneclosure' href="#">Lane closure</a>
       </li>
       <li>
-         <a href="#">Tarffic light</a>
+         <a id='trafficlight' href="#">Traffic light</a>
       </li>
       <li>
-         <a href="#">Flow conserving bottleneck</a>
+         <a id='flow_conserving_bottleneck' href="#">Flow conserving bottleneck</a>
       </li>
    </ul>
 
 </div>
 <!--/.well -->
+<script>
+   (function () {
+      var $navList = $('.nav-list');
+      $navList.bind('click', function (evt) {
+         var target = evt.target || evt.srcElement;
+         $navList.children('.active').removeClass('active');
+         $('#'+target.id).parent().addClass('active');
+         var scenario = target.innerHTML;
+         $('#headline').text(scenario);
+         $('#sub').text('');
+         var path;
+         if (scenario === 'Routing' || scenario === 'Ramp metering') {
+            path = '/sim/games/';
+         } else {
+            path = '/sim/buildingBlocks/';
+         }
+         $('#app').removeClass('hero-unit').empty().html('<h2>' + scenario + '</h2>'
+           +'<APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="600">'
+           + '<PARAM name="scenario" value="'
+           +  path + target.id+'""></APPLET>');
+      })
+   })();
+  
+</script>
