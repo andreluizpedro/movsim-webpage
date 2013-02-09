@@ -1,0 +1,105 @@
+<div class="hero-unit">
+
+  <a href="https://github.com/movsim">
+    <img style="position: absolute; top: 60px; right: 20px; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+  <h1>MovSim</h1>
+  <p>
+    Multi-model ** open-source ** vehicular-traffic **  Simulator.
+  </p>
+  <p>
+    <a id="learn" class="btn btn-primary ">Learn more &raquo;</a>
+  </p>
+</div>
+<div class="row-fluid">
+  <div class="span5">
+    <h2>Vasaloppet - start phase</h2>
+    <h4>Microscopic cross-country skier model</h4>
+    <p>
+      Check out the
+      <a href="http://www.youtube.com/watch?v=qmzTEjOKSdw">video</a>
+      of the simulation with comments.
+      <!-- Note that the skier-modeling is still work in progress. Especially the lane-changing behavior at the sides of the track in the massive traffic jams needs improvements.
+        --> </p>
+    <p>
+      Each skier of the 15000 is simulated individually.
+      <!--  We have eleven types of skiers in the simulation and applied a slight randomization of the power to each skier. One type for each starting block. Take a look at the <a href="https://github.com/movsim/movsim/blob/vasaapplet/sim/examples/vasa_CCS.xml">xml configuration file.</a>
+    -->
+  </p>
+
+  <!-- <p class="visible-desktop">
+  <a class="btn btn-small" href="#">Java Applet &raquo;</a>
+</p>
+-->
+</div>
+<!--/span-->
+<div class="span5">
+<h2>Routing game</h2>
+
+<p>Avoid all traffic breakdowns. Android game.</p>
+<p>
+  <a class="btn btn-info" href="#"> Coming february 2013 &raquo;</a>
+</p>
+<p class="visible-desktop">
+  <a id="appletrouting" class="btn btn-small" href="#">Java Applet &raquo;</a>
+</p>
+</div>
+<!--/span-->
+
+</div>
+<!--/row-->
+<div class="row-fluid">
+<div class="span5">
+<h2>Ramp metering game</h2>
+<p>Manage a traffic light. Android game.</p>
+<p>
+  <!-- <a class="btn btn-info" href="#">Google Play &raquo;</a> -->
+</p>
+
+<p class="visible-desktop">
+  <a id="appletramp" class="btn btn-small" href="#">Java Applet &raquo;</a>
+</p>
+</div>
+<!--/span-->
+<div class="span5">
+<h2>Building blocks</h2>
+<p>Build your own simple road network from our exmples:</p>
+<ul>
+  <li>
+    Onramp
+  </li>
+  <li>
+    Offramp
+  </li>
+  <li>
+    Speed limit
+  </li>
+  <li>
+    Traffic light
+  </li>
+  <li>
+    Lane closure
+  </li>
+  <li>
+    Flow conserving bootleneck
+  </li>
+</ul>
+<!--  <p>
+<a class="btn" href="#">View details &raquo;</a>
+</p>
+-->
+</div>
+<!--/span-->
+</div>
+<!--/row-->
+
+<script type="text/javascript">
+$('#learn').bind('click', function() {
+    $('#aboutsel').trigger('click');
+  });
+$('#appletrouting').bind('click', function() {
+    $('#examplessel').trigger('click');
+  });
+$('#appletramp').bind('click', function() {
+    $('#examplessel').trigger('click');
+  });
+</script>
