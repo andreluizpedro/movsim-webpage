@@ -25,10 +25,10 @@
         //         UTIL.loadTemplate(selected, $('#content'));
         //     });
         // });
-        // 
+        //
 
 // load first page
-util.loadTemplate('main', $('#main'));
+util.loadTemplate('contentMain', $('#main'));
 util.loadTemplate('sidebar', $('#sidebar'));
 
 addNavBarListeners();
@@ -51,8 +51,8 @@ function addNavBarListeners() {
     }
     
     bindListenerToMenuItem('#aboutsel', 'contentAbout', 'sidebarAbout');
-    bindListenerToMenuItem('#homesel', 'main', 'sidebar');
-    bindListenerToMenuItem('#examplessel', 'applet', 'sidebarExamples');
+    bindListenerToMenuItem('#homesel', 'contentMain', 'sidebar');
+    bindListenerToMenuItem('#examplessel', 'contentExamples', 'sidebarExamples');
 
 }
         // util.loadTemplate('footer', $('#footer'), function () {
