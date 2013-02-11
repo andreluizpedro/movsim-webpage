@@ -26,6 +26,9 @@ var util = (function ($) {
 				if (callback && $.isFunction(callback)) {
 					callback();
 				}
+			},
+			error: function () {
+				$(destinationTag).html('');
 			}
 		});
 	};

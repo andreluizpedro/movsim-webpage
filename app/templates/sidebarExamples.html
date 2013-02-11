@@ -33,6 +33,21 @@
       <li>
          <a id='flow_conserving_bottleneck' href="#">Flow conserving bottleneck</a>
       </li>
+       <li class="nav-header">Simple start stop scenario</li>
+      <li>
+         <a id='startStop_all_continuous' href="#">Continuous models</a>
+      </li>
+      <li>
+         <a id='startStop_all_iteratedmaps' href="#">Iterated maps models</a>
+      </li>
+      <li>
+         <a id='startStop_all_ca' href="#">Cellular automata</a>
+      </li>
+
+       <li class="nav-header">Cross country skier model</li>
+        <li>
+         <a id='vasa_CCS' href="#">Vasaloppet</a>
+      </li>
    </ul>
 
 </div>
@@ -40,6 +55,7 @@
 <script>
    (function () {
       var $navList = $('.nav-list');
+      var $app = $('#app');
       $navList.bind('click', function (evt) {
          var target = evt.target || evt.srcElement;
          $navList.children('.active').removeClass('active');
@@ -53,10 +69,15 @@
          } else {
             path = '/sim/buildingBlocks/';
          }
-         $('#app').removeClass('hero-unit').empty().html('<h2>' + scenario + '</h2>'
+         $app.removeClass('hero-unit').empty().html('<h2>' + scenario + '</h2>'
            +'<APPLET CODE="org.movsim.viewer.ui.Applet" ARCHIVE="applet.jar" WIDTH="1280" HEIGHT="600">'
            + '<PARAM name="scenario" value="'
            +  path + target.id+'""></APPLET>');
+         // if (scenario === 'Routing') {
+            var $scenario = $('<div id=scenario-info</div>')
+            util.loadTemplate(target.id, $scenario);
+            $app.append($scenario);
+         // }
       })
    })();
   
