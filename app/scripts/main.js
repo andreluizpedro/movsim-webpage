@@ -54,6 +54,10 @@ function addNavBarListeners() {
     bindListenerToMenuItem('#homesel', 'contentMain', 'sidebar');
     bindListenerToMenuItem('#examplessel', 'contentExamples', 'sidebarExamples');
 
+    $('.brand').bind('click', function () {
+        window.location = 'https://github.com/movsim/movsim';
+    });
+
 }
         // util.loadTemplate('footer', $('#footer'), function () {
         //     $('#footer a ').click(function (e) {
